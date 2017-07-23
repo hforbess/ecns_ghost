@@ -5,3 +5,8 @@
     background-size: cover;
     overflow: hidden;
 }
+
+.page-title{
+  -webkit-text-stroke: 1px black;
+
+}
