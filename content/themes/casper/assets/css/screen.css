@@ -1346,7 +1346,7 @@ body.page-template .post-title {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     display: block;
-    position: absolute;
+    position: relative;
     top: -40px;
     left: 50%;
     margin-left: -40px;
