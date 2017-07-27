@@ -2,11 +2,15 @@
 
 {{!-- The comment above "< default" means - insert everything in this file into
     the {{{body}}} of the default.hbs template, containing the blog header/footer. --}}
-
 {{!-- Everything inside the #post tags pulls data from the post --}}
 {{#post}}
 
  <main class="content" role="main">
+  <div class="row">
+    <div class="col-sm-12">
+     {{> nav_bar }}
+    </div>
+  </div>
   <div class="row">
   <div class="col-sm-2"></div>
   <div class="col-sm-8">
