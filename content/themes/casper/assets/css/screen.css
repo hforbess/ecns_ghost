@@ -1357,24 +1357,27 @@ body.page-template .post-title {
 .pagination {
     position: relative;
     width: 80%;
-    max-width: 710px;
+    max-width: 80%;
     margin: 4rem auto;
     font-family: "Open Sans", sans-serif;
     font-size: 1.3rem;
-    color: #9EABB3;
+    color: black;
     text-align: center;
 }
 
 .pagination a {
-    color: #9EABB3;
-    transition: all 0.2s ease;
+
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
 }
+
 
 /* Push the previous/next links out to the left/right */
 .older-posts,
 .newer-posts {
     position: absolute;
-    display: inline-block;
+    display: block;
     padding: 0 15px;
     border: #bfc8cd 1px solid;
     text-decoration: none;
@@ -1427,6 +1430,15 @@ body.page-template .post-title {
 /* On page2+ make all the headers smaller */
 .paged .main-header {
     max-height: 30vh;
+}
+.previous {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.next {
+    background-color: #4CAF50;
+    color: white;
 }
 
 /* On page2+ show extra pagination controls at the top of post list */
