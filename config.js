@@ -12,7 +12,7 @@ config = {
     // When running Ghost in the wild, use the production environment.
     // Configure your URL and mail settings here
     production: {
-        url: 'http://138.197.200.150',
+        url: 'http://econstructors.com',
         mail: {},
         database: {
 
